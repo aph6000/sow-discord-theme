@@ -1,4 +1,10 @@
-/* SOW Matte Theme 1.0 for Discord 2/14/2021 by APH */
+/* SOW Matte Theme 1.5.1 for Discord 2/17/2021 by APH */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: Open Sans !important;
+}
 
 .theme-dark {
     --header-primary: #fff;
@@ -476,3 +482,39 @@
 .theme-dark .footer-3mqk7D {
     background-color: #fff0;
 }
+
+/* Better Discord title bars */
+.theme-dark .titleBar-AC4pGV {
+    background-image: url(https://media.discordapp.net/attachments/797622888466612254/811497933735329813/interface_dark.png?width=721&height=7);
+    height: 25px;
+    background-size: cover;
+    border-color: #1b1b1b;
+}
+
+.theme-light .titleBar-AC4pGV {
+    background-image: url(https://media.discordapp.net/attachments/797622888466612254/811499136150274108/interface.png?width=721&height=7);
+    height: 25px;
+    background-size: cover;
+    border-top-color: #fff;
+}
+
+.da-winButtonClose, .winButtonClose-1HsbF- {
+    background-image: url(https://media.discordapp.net/attachments/797622888466612254/811503186522931240/stop-Default2.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 3.4px;
+    top: 1px;
+    left: 2px;
+}
+
+svg[name="TitleBarMaximize"], .winButtonMinMax-PBQ2gm
+{
+    top: 0px;
+    left: 2px;
+}
+
+.da-titleBar, .titleBar-AC4pGV, .headerTop-3C2Zn0
+{
+    margin-top: auto;
+}
+
