@@ -1,4 +1,5 @@
-/* SOW Matte Theme 1.5.1 for Discord 2/17/2021 by APH */
+/* SOW Matte Theme 2.0 for Discord 8/7/2021 by APH */
+
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -65,7 +66,7 @@ body {
     --matte-color-2: #2e2e2e;
     --matte-color-3: #121212;
     --matte-text: #fff;
-    --matte-color-4: hsl(0, 0%, 14%);
+    --matte-color-4: #242424;
 }
 
 
@@ -139,6 +140,13 @@ body {
 }
 
 .avatar-1BDn8e {
+    border-radius: 0%;
+    color: #000;
+    background-color: var(--profile-picture-inside);
+    border: 2px solid var(--profile-picture-outline);
+}
+
+.avatar-3tNQiO {
     border-radius: 0%;
     color: #000;
     background-color: var(--profile-picture-inside);
@@ -284,6 +292,14 @@ body {
 
 .clickable-3rdHwn .icon-22AiRD {
     color: var(--matte-text);
+    background-color: var(--non-3d-button-inside);
+    border: 2px solid var(--non-3d-button-outline);
+}
+
+.root-1gCeng {
+    background-color: var(--matte-color-1);
+    border: 2px solid var(--matte-color-3);
+    border-radius: 0px;
 }
 
 .iconActiveLarge-2nzn9z {
@@ -306,6 +322,29 @@ body {
 
 .connection-1fbD7X {
     border-radius: 0px;
+}
+
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+    background-color: var(--background-modifier-selected);
+    border: 2px solid var(--non-3d-button-outline);
+    border-radius: 0%;
+}
+
+.content-1x5b-n { 
+    background-color: var(--non-3d-button-inside);
+    border: 2px solid var(--non-3d-button-outline);
+    border-radius: 0%;
+}
+
+.wrapper-39oAo3 {
+    background-color: var(--channeltextarea-background);
+    border: 2px solid var(--matte-color-3);
+    border-radius: 0px;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    border-radius: 0px;
+    border: 2px solid rgba(0, 0, 0, .38);
 }
 
 /* Other */
@@ -356,12 +395,30 @@ body {
 
 .root-SR8cQa {
     border-radius: 0px;
-    border: 2px solid var(--matte-color-3);
+    border: 2px solid var(--matte-color-1);
 }
 
 .listScroller-2_vlfo {
     padding: 16px 0;
     height: 100%;
+}
+
+.botTagRegular-2HEhHi {
+    background: #e91e63;
+    color: #fff;
+    border: 2px solid #e91e10; 
+}
+
+.px-10SIf7.botTag-2WPJ74 {
+    border-radius: 0px;
+}
+
+.theme-dark .body-3ND3kc {
+    background-color: var(--background-secondary);
+}
+
+.theme-light .body-3ND3kc {
+    background-color: var(--background-primary);
 }
 
 /* Search bars */
@@ -518,3 +575,54 @@ svg[name="TitleBarMaximize"], .winButtonMinMax-PBQ2gm
     margin-top: auto;
 }
 
+.profileBannerPreview-3_l0Wd {
+    background-color: var(--background-floating);
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+            border: 2px solid var(--non-3d-button-outline);
+}
+
+.banner-hcPdsd {
+    border-radius: 0;
+    width: 100%;
+}
+
+.accountProfileCard-1XCH88 {
+    border-radius: 0px;
+    background-color: var(--background-secondary);
+    border: 2px solid var(--matte-color-3);
+}
+
+.userPopout-xaxa6l {
+    border-radius: 0px;
+    border: 2px solid var(--matte-color-3);
+}
+
+.button-38aScr {
+        background-color: var(--non-3d-button-inside);
+        border: 2px solid var(--non-3d-button-outline);
+        border-radius: 0px;
+}
+
+.container-7uh5fX, .messagesPopoutWrap-1MQ1bW, .contentWrapper-SvZHNd {
+    background-color: var(--background-secondary);
+    border-radius: 0px;
+
+    border: 2px solid var(--matte-color-3);
+}
+
+.container-2I9Hud, .container-S9SaVf, .container-O91r7V, .avatar-3u7cAV {
+    background-color: var(--matte-color-2);
+    border: 2px solid var(--matte-color-3);
+    border-radius: 0px;
+}
+
+.container-2rNpDV, .swatch-3mFIiP, .feature-2w65J5 {
+    border: 2px solid #00000061;
+    border-radius: 0px;
+}
+
+.container-2QXVMm {
+    border-radius: 0px;
+}
